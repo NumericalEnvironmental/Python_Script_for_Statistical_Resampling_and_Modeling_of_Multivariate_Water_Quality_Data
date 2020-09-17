@@ -1,5 +1,7 @@
 # Python_Script_for_Statistical_Resampling_and_Modeling_of_Multivariate_Water_Quality_Data
 
+![Preview](https://numericalenvironmental.files.wordpress.com/2020/09/figure_5.png)
+
 This special-purpose Python script reads a multivariate water quality data set, generates a larger synthetic data set with matching parameter probability distributions and pairwise correlations, and runs PHREEQC speciation simulations on the synthetic data. The script, as included in this repository, addresses a specific issue at a particular site, but can be generalized/modified to handle similar problems or to set up Monte Carlo geochemical models. The objectives of the script and some example results are shown in more detail in a blog post at [link pending].
 
 The script requires the numpy, pandas, and matplotlib libraries. The following input files are also required:
